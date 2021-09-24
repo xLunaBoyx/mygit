@@ -3,6 +3,7 @@ package com.kh.foo;
 public class Foo {
 
 	public void sayFoo() {
-		System.out.println("sayFoooooooooooooo!!!");
+		for(int i = 0; i < 5; i++) 
+			System.out.println("sayFoooooooooooooo!!!");
 	}
 }
