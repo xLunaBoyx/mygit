@@ -24,4 +24,11 @@ public class HelloWorld {
 		new Cat().say();
 		// master branch 어디갔어
 	}
+	
+	/**
+	* 원격 저장소에서 수정된 내용
+	*/
+	public void hello() {
+		System.out.println("저를 fetch해주세요");
+	}
 }
