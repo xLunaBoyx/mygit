@@ -26,9 +26,16 @@ public class HelloWorld {
 	}
 	
 	/**
-	* 원격 저장소에서 수정된 내용
+	* 원격 저장소에서 수정된 내용 #1
 	*/
 	public void hello() {
 		System.out.println("저를 fetch해주세요");
+	}
+	
+	/**
+	* 원격 저장소에서 수정된 내용 #2
+	*/
+	public void world() {
+		System.out.println("저를 pull해주세요");
 	}
 }
